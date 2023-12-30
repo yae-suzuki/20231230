@@ -34,7 +34,7 @@ class HscrSub(Node):
         f.close()
         
         # OpenAIのAPIキーを設定
-        openai.api_key = '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'
+        openai.api_key = 'api'
 
         # テンプレートの準備
         template = """あなたはさかなのキャラクターとして振る舞うチャットボットです。

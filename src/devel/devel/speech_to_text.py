@@ -6,7 +6,7 @@ import threading
 import time
 
 # OpenAIのAPIキーを設定
-openai.api_key = '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'
+openai.api_key = 'api'
 
 # 録音のパラメータ
 fs = 44100  # サンプルレート

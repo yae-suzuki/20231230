@@ -61,7 +61,7 @@ def main(args=None):  # main関数
     rclpy.init()
     node = HscrPub()
     # OpenAIのAPIキーを設定
-    openai.api_key = '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'
+    openai.api_key = 'api'
 
 
     try:

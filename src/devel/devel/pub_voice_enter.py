@@ -70,7 +70,7 @@ def main(args=None):  # main関数
     recording = np.array([])  # 録音データを保存する配列
     # 録音の開始と終了を制御するフラグ
     is_recording = False
-    openai.api_key = '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'# OpenAIのAPIキーを設定
+    openai.api_key = 'api'# OpenAIのAPIキーを設定
 
     rclpy.init()
     node = HscrPub()

@@ -28,9 +28,9 @@ class HscrSub(Node):
         msg=0
         print(type(c_msg))
         print(c_msg.data)
-        n = int(c_msg.data)
+        n_time_face_movie = int(c_msg.data)
         print(type(n.data))
-        for n in range(n):
+        for n_time in range(n_time_face_movie):
             #msg = String()
             #msg = Int32()
             #msg.data = n
@@ -77,12 +77,6 @@ class HscrSub(Node):
                     break
             
             print("end")
-
-        
-
-
-
-
 
 def main(args=None):  # main¢p
     try:
